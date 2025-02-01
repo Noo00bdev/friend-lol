@@ -1,0 +1,29 @@
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  flex-wrap: wrap;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: blue;
+  background-color: lightskyblue;
+  padding: 5px;
+  border-radius: 5px;
+}
+.fannytagrossetêtela {
+  width : 40%;
+}
+.toutmignon-picture {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: -10px;
+}
+.toutmignon-picture img {
+  width: 100px;
+
+}
